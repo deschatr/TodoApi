@@ -120,6 +120,7 @@ namespace TodoApi.Controllers
             return NoContent();
         }
 
+        // PATCH: api/TodoItem/5
         [HttpPatch("{id}")]
         public async Task<IActionResult> PatchTodoItem(long id, TodoItemCheck todoItemCheck)
         {
