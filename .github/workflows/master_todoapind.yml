@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'todoapind'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3AEFBC4480DC438DBA5BAF2DC2A22523 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C019915AC59046E7B0DEF52C297C42D7 }}
           package: .
