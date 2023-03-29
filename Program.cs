@@ -14,17 +14,12 @@ var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 
-//app.UseForwardedHeaders();
-
 if (app.Environment.IsDevelopment())
 {
     app.UseDeveloperExceptionPage();
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-//else { app.UseHsts(); }
-
-// app.UseCors(builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 
 app.UseHttpsRedirection();
 
